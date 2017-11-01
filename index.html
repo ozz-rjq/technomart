@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Technomart</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="top-header">
+			<div class="top-header-content container clearfix">
+				<div class="header-logo">
+					Техномарт
+				</div>
+
+				<form class="header-search clearfix" action="/echo" method="get">
+					<input type="text" name="search" placeholder="Поиск:">
+					<div class="search-icon"></div>
+					<div class="search-active-bg"></div>
+				</form>
+
+				<div class="header-orders clearfix">
+					<a class="header-orders-bookmarks">
+						Закладки: <span class="bookmarks-num">0</span>
+					</a>
+
+					<a class="header-orders-cart">
+						Корзина: <span class="carts-num">0</span>
+					</a>
+
+					<div class="header-orders-checkout">
+						<a href="#">Оформить заказ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bottom-header">
+			<div class="bottom-header-content container">
+				<div class="bottom-header-info clearfix">
+					<div class="header-about-us">
+						Интернет-магазин строительных материалов <br>
+						и инструментов для ремонта
+					</div>
+
+					<div class="header-contact-us">
+						<div class="phone">
+							+7 (812) 555-05-55
+						</div>
+						<div class="address">
+							г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+						</div>
+					</div>
+
+					<div class="user-block cleafix">
+						<div class="sign-in">
+							<a href="catalog.html">Войти</a>
+						</div>
+						<div class="sign-up">
+							<a href="#">Регистрация</a>
+						</div>
+					</div>
+				</div>
+
+				<nav class="main-navigation">
+					<ul>
+						<li><span class="active-page">Главная</span></li>
+						<li><a href="#">Компания</a></li>
+						<li><a href="catalog.html">Каталог</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Спецпредложения</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main class="main-content clearfix">
+		<div class="main-content-top container clearfix">
+			<div class="unit-content materials new">
+				<h3 class="unit-title">Материалы</h3>
+				<a href="#" class="unit-content-btn">На любой вкус</a>
+			</div>
+
+			<div class="unit-content instrument">
+				<h3 class="unit-title">Инструмент</h3>
+				<a href="#" class="unit-content-btn">На все случаи</a>
+			</div>
+
+			<div class="unit-content equipment">
+				<h3 class="unit-title">Техника</h3>
+				<a href="#" class="unit-content-btn">Для стройки</a>
+			</div>
+		</div>
+
+		<div class="main-content-middle container clearfix">
+			<section class="slider">
+				<input type="radio" name="slider-controls" value="slide1" id="slide1" checked>
+				<input type="radio" name="slider-controls" value="slide2" id="slide2">
+
+				<label for="slide1" class="slide-option slide1-option"></label>
+				<label for="slide2" class="slide-option slide2-option"></label>
+				
+				<div class="arrows">
+				<label for="slide1" class="arrow arrow-left"></label>
+				<label for="slide2" class="arrow arrow-right"></label>
+				</div>
+
+				<div class="slides clearfix">
+					<div class="slide">
+						<h2 class="slide-title">Перфораторы</h2>
+						<p class="slide-description">
+							Настоящие мужские игрушки
+						</p>
+						<a href="catalog.html" class="slider-btn">Открыть каталог</a>
+					</div>
+
+					<div class="slide">
+						<h2 class="slide-title">Дрели</h2>
+						<p class="slide-description">
+							Соседям на радость
+						</p>
+						<a href="catalog.html" class="slider-btn">Открыть каталог</a>
+					</div>
+				</div>
+			</section>
+
+			<div class="main-content-middle-left clearfix">
+				<div class="unit-content discounts">
+					<h3 class="unit-title">Скидки</h3>
+					<a href="#" class="unit-content-btn">На 350 товаров</a>
+				</div>
+
+				<div class="unit-content delivery">
+					<h3 class="unit-title">Доставка</h3>
+					<a href="#" class="unit-content-btn">Бесплатно</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-content-bottom container">
+			<div class="popular-products-top box-style">
+				<b>Популярные товары:</b>
+				<a href="#" class="btn">Все популярные товары</a>
+			</div>
+
+			<section class="popular-products-content clearfix">
+				<article class="product">
+					<div class="product-standart">
+						<div class="product-image">
+							<img src="img/bosch-bfg-9000.jpg" alt="" class="product-img" width="184" height="164">
+						</div>
+						<h3 class="product-name">Перфоратор BOSCH BFG 9000</h3>
+						<span class="price">32500 р.</span>
+						<span class="real-price">25500 р.</span>
+					</div>
+
+					<div class="product-hover">
+						<a href="#" class="btn btn-buy">Купить</a>
+						<a href="#" class="btn btn-to-bookmarks">В закладки</a>
+					</div>
+				</article>
+
+				<article class="product">
+					<div class="product-standart">
+						<div class="product-image">
+							<img src="img/bosch-bfg-3000.jpg" alt="" class="product-img" width="127" height="112">
+						</div>
+						<h3 class="product-name">Перфоратор BOSCH BFG 3000</h3>
+						<span class="price">22500 р.</span>
+						<span class="real-price">15500 р.</span>
+					</div>
+
+					<div class="product-hover">
+						<a href="#" class="btn btn-buy">Купить</a>
+						<a href="#" class="btn btn-to-bookmarks">В закладки</a>
+					</div>
+				</article>
+
+				<article class="product">
+					<div class="product-standart">
+						<div class="product-image">
+							<img src="img/bosch-bfg-6000.jpg" alt="" class="product-img" width="144" height="128">
+						</div>
+						<h3 class="product-name">Перфоратор BOSCH BFG 6000</h3>
+						<span class="price">30500 р.</span>
+						<span class="real-price">25500 р.</span>
+
+					</div>
+					<div class="product-hover">
+						<a href="#" class="btn btn-buy">Купить</a>
+						<a href="#" class="btn btn-to-bookmarks">В закладки</a>
+					</div>
+				</article>
+
+				<article class="product new">
+					<div class="product-standart">
+						<div class="product-image">
+							<img src="img/bosch-bfg-2000.jpg" alt="" class="product-img" width="127" height="112">
+						</div>
+						<h3 class="product-name">
+							Перфоратор BOSCH BFG 2000
+						</h3>
+						<span class="price"></span>
+						<span class="real-price">25500 р.</span>
+					</div>
+
+					<div class="product-hover">
+						<a href="#" class="btn btn-buy">Купить</a>
+						<a href="#" class="btn btn-to-bookmarks">В закладки</a>
+					</div>
+				</article>
+			</section>
+
+			<div class="popular-manufacturers-top box-style">
+				<b>Популярные производители:</b>
+				<a href="№" class="btn">Все популярные производители</a>
+			</div>
+
+			<div class="popular-manufacturers-content clearfix">
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-bosch.jpg" alt="" width="126" height="37">
+					</a>
+				</div>
+
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-makita.jpg" alt="" width="123" height="40">
+					</a>
+				</div>
+
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-dewalt.jpg" alt="" width="146" height="44">
+					</a>
+				</div>
+
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-interskol.jpg" alt="" width="200" height="88">
+					</a>
+				</div>
+
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-hitachi.jpg" alt="" width="169" height="31">
+					</a>
+				</div>
+
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-lg.jpg" alt="" width="121" height="73">
+					</a>
+				</div>
+
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-aeg.jpg" alt="" width="151" height="96">
+					</a>
+				</div>
+
+				<div class="manufacturer">
+					<a href="#">
+						<img src="img/popular-metabo.jpg" alt="" width="204" height="69">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<section class="services">
+			<div class="services-content-top container">
+				<h2 class="services-main-title">Сервисы</h2>
+				<p class="services-info">
+					Хороший интернет-магазин отличается от плохого не только ценами!<br>
+					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+				</p>
+			</div>
+
+			<div class="services-content container clearfix">
+				<ul class="services-list clearfix">
+					<li><a href="#" class="active">Доставка</a></li>
+					<li><a href="#">Гарантия</a></li>
+					<li><a href="#">Кредит</a></li>
+				</ul>
+				<div class="services-units clearfix">
+					<div class="services-item services-delivery">
+						<h3 class="services-title">Доставка</h3>
+						<p class="services-description">
+							Мы с удовольствием доставим ваш товар прямо <br>
+							к вашему подъезду совершенно бесплатно! <br>
+							Ведь мы неплохо заработаем, <br>
+							поднимая его на ваш на этаж!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="company-info container clearfix">
+			<div class="company-info-about clearfix">
+				<h2 class="company-info-title">
+					Компания «Техномарт»
+				</h2>
+				<p class="company-info-description">
+					Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.
+				</p>
+				<p class="company-info-description">
+					Мы можем доставить ваш товар в самые отдаленные точки России! <br>
+					Техномарт работает со многими транспортными компаниями: 
+				</p>
+				<ul class="transport-companies">
+					<li>Деловые линии</li>
+					<li>Автотрейдинг</li>
+					<li>ЖелДорЭкспедиция</li>
+				</ul>
+				<a href="#" class="btn">
+					Подробнее о компании
+				</a>
+			</div>
+			<div class="company-info-contacts">
+				<h2 class="company-info-title">Контакты</h2>
+				<p class="company-info-description">
+					Вы можете забрать товар сами, <br>
+					заехав в наш офис:
+				</p>
+				<figure class="mini-map">
+					<img src="img/mini-map.jpg" alt="Map" width="300" height="158">
+				</figure>
+				<a href="#" class="btn message-js">
+					Заблудились? Напишите нам!
+				</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="main-footer">
+		<div class="footer-top">
+			<div class="footer-top-content container">
+				<div class="footer-navigation clearfix">
+					<div class="footer-logo">
+						Техномарт
+					</div>
+
+					<nav class="navigation">
+						<ul>
+							<li>
+								<a href="#">Компания</a>
+							</li>
+							<li>
+								<a href="#">Новости</a>
+							</li>
+							<li>
+								<a href="catalog.html">Каталог</a>
+							</li>
+							<li>
+								<a href="#">Доставка</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="footer-auxiliary clearfix">
+					<div class="footer-address">
+						г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
+						+7 (812) 555-05-55
+					</div>
+
+					<nav class="navigation navigation-bottom">
+						<ul>
+							<li>
+								<a href="#">Материалы</a>
+							</li>
+							<li>
+								<a href="#">Техника</a>
+							</li>
+							<li>
+								<a href="#">Инструмент</a>
+							</li>
+							<li>
+								<a href="#">Спецпредложения</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer-bottom-content container clearfix">
+				<div class="footer-rights">
+					&copy; 2010–2016 Компания «Техномарт»<br>
+					Все права защищены
+				</div>
+
+				<div class="footer-social">
+					<ul>
+						<li>
+							<a href="#" class="vk-icon">VK</a>
+						</li>
+						<li>
+							<a href="#" class="fb-icon">FB</a>
+						</li>
+						<li>
+							<a href="#" class="insta-icon">Instagramm</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-feedback">
+					Обратная связь: <br>
+					<a href="#">mail@taras.tataryn.ttm</a>
+				</div>
+
+				<div class="footer-developers">
+					Разработано: <br>
+					<a href="#">taras.tataryn.ttm</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="popup cart-popup">
+		<div class="result-block">
+			<b class="cart-message">
+				Товар добавлен в корзину!
+			</b>
+			<a class="popup-close"></a>
+		</div>
+		<div class="buttons-block">
+			<a href="#" class="btn checkout">Оформить заказ</a>
+			<a href="#" class="btn continue-shopping">Продолжить покупки</a>
+		</div>
+	</div>
+
+	<div class="popup message-popup">
+		<div class="message-info">
+			<div class="clearfix">
+				<div class="name-block">
+					<label for="name">Ваше имя:</label>
+					<input type="text" name="name" id="name" class="name" placeholder="Представьтесь, пожалуйста">
+				</div>
+				<div class="email-block">
+					<label for="email">Ваш e-mail:</label>
+					<input type="email" name="email" id="email" class="email" placeholder="Для отправки ответа">
+				</div>
+			</div>
+			<div class="message-block">
+				<label for="message">Текст письма:</label>
+				<textarea name="message" id="message" class="message" placeholder="В свободной форме" cols="30" rows="5"></textarea>
+			</div>
+			<a class="popup-close"></a>
+		</div>
+		<div class="buttons-block">
+			<a href="#" class="btn send-btn">Отправить</a>
+		</div>
+	</div>
+
+	<div class="screen-blackout"></div>
+
+	<script src="js/script.min.js"></script>
+</body>
+</html>
