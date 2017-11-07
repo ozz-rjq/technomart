@@ -1,3 +1,3 @@
 # technomart
 
-[Rewiev](https://ozz-rjq.github.io/technomart/)
+[Review](https://ozz-rjq.github.io/technomart/)
